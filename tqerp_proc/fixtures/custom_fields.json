@@ -1,0 +1,22 @@
+[
+    {
+        "doctype":"Custom Field",
+        "dt" : "Supplier",
+        "module":"Tqerp Proc",
+        "name": "email in Supplier",
+        "fieldname":"email",
+        "fieldtype":"Data",
+        "label":"Email",
+        "insert_after":"default_bank_account"
+    },
+     {
+        "doctype":"Custom Field",
+        "dt" : "Buying Settings",
+        "module":"Tqerp Proc",
+        "name": "reminder in BS",
+        "fieldname":"reminder_days",
+        "fieldtype":"Data",
+        "label":"Reminder Days",
+        "insert_after":"use_transaction_date_exchange_rate"
+    }
+]
